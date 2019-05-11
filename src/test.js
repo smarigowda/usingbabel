@@ -1,0 +1,1 @@
+let test = 'let should be converted to var';
