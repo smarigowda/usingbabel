@@ -1,5 +1,5 @@
-require("@babel/register")({
-    presets: [ "@babel/preset-env" ]
+require("babel-register")({
+    presets: [ 'env' ]
 });
 
 module.exports = require('./src/main');
