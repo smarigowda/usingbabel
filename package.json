@@ -1,11 +1,11 @@
 {
   "name": "usingbabel",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "rimraf build/* && babel -d build src && copyfiles package.json build && copyfiles README.md build",
-    "publish-package": "cd build && npm publish"
+    "publish-package": "npm run build && cd build && npm publish"
   },
   "devDependencies": {
     "copyfiles": "^2.1.0",
