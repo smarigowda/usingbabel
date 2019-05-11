@@ -1,1 +1,4 @@
-let test = 'let should be converted to var';
+export default () => {
+    let result = 'Arrow function';
+    return result;
+}
