@@ -1,6 +1,6 @@
 import { display } from './display';
 export default () => {
-    let result = '...local development....npm link...';
+    let result = 'using locally linked repo for local development...';
     let t = 0;
     debugger;
     display();

@@ -8,11 +8,14 @@
     "publish-package": "npm run build && cd build && npm publish"
   },
   "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/register": "^7.4.4",
     "copyfiles": "^2.1.0",
     "rimraf": "^2.6.3"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/preset-env": "^7.4.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0"
